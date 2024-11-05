@@ -1,0 +1,237 @@
+body {
+  background-color: #121212;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.navbar {
+  background-color: #1a1a1a;
+  padding: 1rem;
+}
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://4kwallpapers.com/images/wallpapers/demon-slayer-3840x2160-17643.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 6rem 0;
+  position: relative;
+  min-height: 500px;
+}
+.featured-manga {
+  border-radius: 10px;
+  padding: 2rem;
+  backdrop-filter: blur(4px);
+}
+.manga-card {
+  background: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.manga-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.manga-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.manga-card:hover img {
+  transform: scale(1.05);
+}
+.manga-info {
+  padding: 1.5rem;
+  color: white;
+}
+.search-bar {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
+.search-bar:focus {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+}
+.search-bar::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.btn-read {
+  background-color: #e53637;
+  color: white;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-read:hover {
+  background-color: #d32f2f;
+  transform: translateY(-2px);
+}
+.chapter-info {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.section-title {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #e53637;
+}
+.comic-list-item {
+  background: #2a2a2a;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+.comic-list-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.comic-thumbnail {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.filter-section {
+  background: #2a2a2a;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+.genre-card {
+  background: #2a2a2a;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+.genre-card:hover {
+  transform: translateY(-5px);
+  background: #333;
+}
+.genre-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #e53637;
+}
+.genre-count {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.popular-card {
+  background: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.popular-card:hover {
+  transform: translateY(-5px);
+}
+.popular-rank {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #e53637;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.stats-container {
+  display: flex;
+  gap: 1rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+.filter-button {
+  background: #2a2a2a;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+.filter-button.active {
+  background: #e53637;
+}
+.filter-button:hover {
+  background: #e53637;
+}
+.pagination .page-link {
+  background-color: #2a2a2a;
+  border-color: #333;
+  color: white;
+}
+.pagination .page-item.active .page-link {
+  background-color: #e53637;
+  border-color: #e53637;
+}
+.popular-card {
+  background: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.popular-card:hover {
+  transform: translateY(-5px);
+}
+.popular-rank {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #e53637;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+.popular-img {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+.popular-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.popular-card:hover .popular-img img {
+  transform: scale(1.1);
+}
+.popular-info {
+  padding: 1.5rem;
+}
+.transition-transform {
+  transition: transform 0.3s ease;
+}
+.transition-transform:hover {
+  transform: translateY(-3px);
+}
+.hover-text-danger:hover {
+  color: #dc3545 !important;
+}
