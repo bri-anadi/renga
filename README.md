@@ -43,7 +43,7 @@ To run this project locally on your machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/renga.git
+   git clone https://github.com/bri-anadi/renga.git
    ```
 
 2. Navigate to the project directory:
